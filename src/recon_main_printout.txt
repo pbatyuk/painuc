@@ -1,0 +1,499 @@
+ofilename dig/9Nv9_1-202.dig
+ test_outfile dig/9Nv9_1-202.dig.2
+ 0 0 1 x 560 y 262
+ 0 0 2 x 454 y 286
+ 0 0 3 x 381 y 298
+ 0 1 1 x 402 y 476
+ 0 1 2 x 389 y 433
+ 0 1 3 x 355 y 338
+ 0 2 1 x 99 y 108
+ 0 2 2 x 176 y 174
+ 0 2 3 x 291 y 266
+ 1 0 1 x 583 y 228
+ 1 0 2 x 477 y 254
+ 1 0 3 x 404 y 267
+ 1 1 1 x 421 y 428
+ 1 1 2 x 397 y 355
+ 1 1 3 x 376 y 298
+ 1 2 1 x 121 y 83
+ 1 2 2 x 205 y 155
+ 1 2 3 x 285 y 215
+imin 0 imax 2
+delta_angle 0.000327 cells 365.168454 
+epx 381 epy 298, endangle 1.432061 cur 1.312592
+npoints 0 is 609, in a corridor 2112 of average width 10.404
+average brightness on track 0 is 985.226624
+error flag is 0
+imin 2 imax 0
+delta_angle 0.000344 cells 291.568174 
+epx 401 epy 476, endangle -0.278156 cur -0.378360
+npoints 1 is 474, in a corridor 2069 of average width 13.095
+average brightness on track 1 is 3073.493652
+error flag is 0
+imin 2 imax 0
+delta_angle 0.000136 cells 497.304736 
+epx 99 epy 107, endangle 2.293241 cur 2.225470
+npoints 2 is 855, in a corridor 3546 of average width 12.442
+average brightness on track 2 is 1811.028076
+error flag is 0
+ Vertex coordinates: x 339.792267, y 302.239410; error 0.204649
+imin 0 imax 2
+delta_angle 0.000351 cells 366.398690 
+epx 403 epy 266, endangle 1.420571 cur 1.291972
+npoints 0 is 594, in a corridor 1750 of average width  8.838
+average brightness on track 0 is 597.272705
+error flag is 0
+imin 2 imax 0
+delta_angle 0.000257 cells 275.136330 
+epx 421 epy 427, endangle -0.297889 cur -0.368599
+npoints 1 is 477, in a corridor 1915 of average width 12.044
+average brightness on track 1 is 2004.823853
+error flag is 0
+imin 2 imax 0
+delta_angle 0.000309 cells 421.046316 
+epx 121 epy 82, endangle 2.313630 cur 2.183379
+npoints 2 is 705, in a corridor 2401 of average width 10.217
+average brightness on track 2 is 1010.978699
+error flag is 0
+ Vertex coordinates: x 365.113495, y 270.241852; error 1.180789
+Running the program for positive pions of mean momentum 210.000000 MeV/c
+Magnetic field set at 6.500000 kGauus
+Now open input file dig/9Nv9_1-202.dig.2
+string lenth 4
+Now open output file res/9Nv9_1-202.dig.2.r0
+Event_type = 1, 
+ there are  3  tracks:
+
+Number of points along track is 609
+initial  2559.8   434.2 -1943.2  1120.0   524.0   762.0   598.0 
+
+ MINUIT WARNING IN PARAM DEF
+ ============== STARTING VALUE IS AT LIMIT.
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE8 IS AT ITS LOWER ALLOWED LIMIT.
+ MINUIT WARNING IN PARAMETR
+ ============== VARIABLE8 BROUGHT BACK INSIDE LIMITS.
+ FCN=0.425174 FROM MIGRAD    STATUS=CONVERGED     695 CALLS         696 TOTAL
+                     EDM=1.34251e-09    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.3 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  C            5.66836e+01   1.46706e+01   9.07958e-07   3.24339e-04
+   2  Sigma        9.58783e+00   3.70686e+00  -1.98004e-06   2.40178e-04
+   3  B            2.19410e+02   1.79812e+01   1.16790e-05   7.11373e-06
+   4  A            3.97586e-02   3.93589e-01  -5.86538e-05   8.08666e-05
+   5  X0           1.55594e+00   1.77132e+00   3.63806e-05  -7.27218e-05
+   6  A2           4.21875e+01   1.50432e+01  -7.00764e-06  -1.16788e-03
+   7  x02          1.92794e+00   2.67400e+00  -1.13198e-04  -4.81172e-06
+   8  Sigma2       1.44382e+00   6.03437e-01   4.53828e-05  -1.95991e-05
+ FCN=0.553406 FROM MIGRAD    STATUS=CONVERGED     720 CALLS         721 TOTAL
+                     EDM=3.33076e-11    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   3.5 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  C            5.96062e+01   1.66848e+01   1.91071e-06  -1.81785e-04
+   2  Sigma        9.92573e+00   3.98795e+00  -9.41603e-06   6.11874e-05
+   3  B            2.17353e+02   2.09780e+01   9.13630e-05   5.53242e-07
+   4  A            2.27517e-02   4.16532e-01   2.30713e-05   6.52375e-06
+   5  X0          -6.92483e-01   1.79563e+00  -9.92413e-06   1.21210e-05
+   6  A2           4.06794e+01   1.65250e+01   5.03250e-08  -1.30490e-04
+   7  x02         -3.15836e-01   4.70695e-01   2.50187e-06  -8.15438e-06
+   8  Sigma2       1.25081e+00   1.49213e+00   6.93194e-05   1.19143e-05
+SHIFT on radius correction was found as    1.93 pixels
+
+****************************************
+Minimizer is Linear
+Chi2                      =     308.708
+NDf                       =     159
+p0                        =     4.72633         +/-     0.700455    
+p1                        =     -0.0026804      +/-     0.00626567  
+chi2 308.707862 a -0.002680+/-0.006266 b 4.726335+/-0.700455
+brightness for track 0 is 3.941303
+ Npoints_fit 1447
+error flag is 0
+ASCII image circle results:  2465.2   451.9 -1849.0  
+
+points number along track CIRCLE is 470
+ rc_int  xc_int  yc_int     stx     sty    endx    endy
+ 2465.2   451.9 -1849.0  1120.0   524.0   762.0   598.0 
+ 2465.2   451.9 -1849.0  
+
+Number of points along track is 474
+initial  2803.4 -1891.6  1720.2   710.0   674.0   804.0   950.0 
+
+Warning in <TROOT::Append>: Replacing existing TH1: hwidth (Potential memory leak).
+ FCN=0.971294 FROM MIGRAD    STATUS=CONVERGED     702 CALLS         703 TOTAL
+                     EDM=1.30915e-09    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.6 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  C            1.23840e+02   1.54682e+01   9.92838e-07   1.88209e-03
+   2  Sigma        9.09023e+00   2.29747e+00   1.94959e-05   3.76664e-04
+   3  B            2.95887e+02   2.12972e+01  -9.97767e-04   8.55987e-06
+   4  A           -3.63674e-01   4.53007e-01  -9.36553e-05  -1.21460e-05
+   5  X0           8.48589e-01   1.00777e+00   1.16555e-06   3.03277e-04
+   6  A2           9.97570e+01   2.08355e+01   1.36364e-05   3.91182e-04
+   7  x02          1.18423e+00   3.17921e-01   1.23085e-05  -1.72271e-04
+   8  Sigma2       1.90468e+00   5.43838e-01  -5.35633e-05   9.92075e-05
+ FCN=1.15787 FROM MIGRAD    STATUS=CONVERGED     651 CALLS         652 TOTAL
+                     EDM=3.05566e-11    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.0 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  C            1.29636e+02   1.70407e+01   1.42549e-06   1.15637e-04
+   2  Sigma        9.43836e+00   2.65519e+00   7.12256e-06   1.95158e-05
+   3  B            3.02563e+02   2.58529e+01  -8.51841e-04  -5.91952e-08
+   4  A           -4.77433e-01   4.78881e-01  -1.56886e-06  -2.48586e-05
+   5  X0          -3.67727e-01   9.74555e-01  -1.84613e-06  -6.36484e-05
+   6  A2           1.02990e+02   2.21331e+01  -7.81574e-07   5.19899e-06
+   7  x02         -2.84429e-01   3.48995e-01  -8.27826e-06  -2.01663e-05
+   8  Sigma2       2.06735e+00   5.82499e-01   3.72424e-06  -3.90018e-06
+SHIFT on radius correction was found as    1.18 pixels
+
+****************************************
+Minimizer is Linear
+Chi2                      =     259.826
+NDf                       =     140
+p0                        =     10.8254         +/-     1.77528     
+p1                        =     0.0834906       +/-     0.0246994   
+chi2 259.825682 a 0.083491+/-0.024699 b 10.825429+/-1.775282
+brightness for track 1 is 16.462191
+Warning in <TROOT::Append>: Replacing existing TH1: hslice (Potential memory leak).
+ Npoints_fit 1117
+error flag is 0
+ASCII image circle results:  2245.3 -1363.8  1535.9  
+
+points number along track CIRCLE is 369
+ rc_int  xc_int  yc_int     stx     sty    endx    endy
+ 2245.3 -1363.8  1535.9   710.0   674.0   804.0   950.0 
+ 2245.3 -1363.8  1535.9  
+
+Number of points along track is 855
+initial  6968.2  4815.8 -5003.2   582.0   530.0   198.0   216.0 
+
+Warning in <TROOT::Append>: Replacing existing TH1: hwidth (Potential memory leak).
+ FCN=0.268524 FROM MIGRAD    STATUS=CONVERGED     530 CALLS         531 TOTAL
+                     EDM=1.74749e-11    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   3.3 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  C            6.74804e+01   1.24282e+01   1.80273e-06   2.79607e-04
+   2  Sigma        8.44263e+00   2.81695e+00   1.24410e-05   4.36554e-05
+   3  B            2.59136e+02   1.41334e+01  -7.29315e-04   1.54616e-06
+   4  A            5.27919e-01   3.43578e-01  -1.03646e-05  -4.93308e-06
+   5  X0           8.71499e-01   1.28224e+00   7.35011e-06  -2.64602e-05
+   6  A2           8.06244e+01   1.80109e+01  -1.22675e-06   1.88612e-04
+   7  x02          6.02084e-01   3.36545e-01  -2.27888e-06  -5.01354e-06
+   8  Sigma2       1.72489e+00   5.06400e-01   2.80167e-05   1.59669e-05
+SHIFT on radius correction was found as    0.00 pixels
+
+****************************************
+Minimizer is Linear
+Chi2                      =     444.214
+NDf                       =     243
+p0                        =     10.219          +/-     1.01963     
+p1                        =     0.0171366       +/-     0.00687662  
+chi2 444.214393 a 0.017137+/-0.006877 b 10.218964+/-1.019632
+brightness for track 2 is 12.189708
+Warning in <TROOT::Append>: Replacing existing TH1: hslice (Potential memory leak).
+ Npoints_fit 1739
+error flag is 0
+ASCII image circle results:  6857.2  4745.0 -4917.3  
+
+points number along track CIRCLE is 636
+ rc_int  xc_int  yc_int     stx     sty    endx    endy
+ 6857.2  4745.0 -4917.3   582.0   530.0   198.0   216.0 
+ 6857.2  4745.0 -4917.3  
+
+ Vertex position: X: 0.000000, Y: 0.000000, Error: 0.000000
+Image 0 track 0 angle 6.079
+Image 0 track 1 angle 1.243
+Image 0 track 2 angle 0.685
+Number of points along track is 594
+initial  2416.2   471.8 -1859.8  1166.0   456.0   808.0   536.0 
+
+Warning in <TROOT::Append>: Replacing existing TH1: hwidth (Potential memory leak).
+ FCN=0.102854 FROM MIGRAD    STATUS=CONVERGED    1260 CALLS        1261 TOTAL
+                     EDM=5.77144e-10    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.4 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  C            2.96331e+01   1.15612e+01  -3.46557e-06   1.79891e-04
+   2  Sigma        9.33631e+00   6.04445e+00  -6.70927e-05   3.13719e-05
+   3  B            1.65148e+02   1.55726e+01  -8.21436e-04  -7.57136e-07
+   4  A           -3.49675e-01   3.19075e-01  -1.94980e-06  -2.36898e-04
+   5  X0           1.30194e+00   2.66124e+00  -7.52325e-06  -2.36198e-04
+   6  A2           2.38947e+01   1.33970e+01   8.14713e-06   8.54110e-06
+   7  x02          2.00000e+00   3.28216e+00   5.47473e-05** at limit **
+   8  Sigma2       1.86617e+00   1.43220e+00   4.38485e-05   1.20556e-06
+ FCN=0.124248 FROM MIGRAD    STATUS=CONVERGED     928 CALLS         929 TOTAL
+                     EDM=1.16088e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  C            3.05524e+01   1.11461e+01   8.96664e-06   2.43996e-03
+   2  Sigma        9.09442e+00   5.67012e+00   7.63161e-05  -7.21827e-04
+   3  B            1.64820e+02   1.50546e+01   1.09206e-03   3.57441e-05
+   4  A           -3.54976e-01   3.51914e-01   8.95802e-05  -2.33818e-04
+   5  X0          -1.10545e+00   2.75948e+00   7.44851e-05   1.03245e-04
+   6  A2           2.35972e+01   1.33769e+01   1.88140e-05  -9.53724e-04
+   7  x02         -1.67987e-01   8.47133e-01   2.18733e-04   6.96370e-05
+   8  Sigma2       1.69290e+00   1.33302e+00   3.92075e-04   2.96270e-05
+SHIFT on radius correction was found as    2.00 pixels
+
+****************************************
+Minimizer is Linear
+Chi2                      =     128.056
+NDf                       =     127
+p0                        =     2.72624         +/-     0.612915    
+p1                        =     0.000263763     +/-     0.0056895   
+chi2 128.056366 a 0.000264+/-0.005689 b 2.726243+/-0.612915
+brightness for track 0 is 1.934401
+Warning in <TROOT::Append>: Replacing existing TH1: hslice (Potential memory leak).
+ Npoints_fit 1441
+error flag is 0
+ASCII image circle results:  2024.9   560.4 -1477.5  
+
+points number along track CIRCLE is 467
+ rc_int  xc_int  yc_int     stx     sty    endx    endy
+ 2024.9   560.4 -1477.5  1166.0   456.0   808.0   536.0 
+ 2024.9   560.4 -1477.5  
+
+Number of points along track is 477
+initial  3844.2 -2830.2  1992.6   752.0   594.0   844.0   854.0 
+
+Warning in <TROOT::Append>: Replacing existing TH1: hwidth (Potential memory leak).
+ FCN=0.784573 FROM MIGRAD    STATUS=CONVERGED     424 CALLS         425 TOTAL
+                     EDM=2.31571e-11    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.3 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  C            8.99340e+01   1.06846e+01   3.77714e-06   8.45385e-07
+   2  Sigma        7.39217e+00   1.38597e+00  -1.55602e-05   2.11364e-05
+   3  B            2.26645e+02   8.92770e+00   1.82006e-04   1.39557e-07
+   4  A           -3.44046e-01   3.09497e-01   1.50796e-06   1.93264e-05
+   5  X0           2.35796e+00   7.82781e-01   8.42862e-07   1.22284e-04
+   6  A2           7.69571e+01   1.81313e+01  -8.05594e-07  -1.96883e-04
+   7  x02          1.19512e+00   3.16201e-01  -2.94592e-06   1.47763e-05
+   8  Sigma2       1.32194e+00   3.97634e-01  -7.31725e-05   1.75249e-07
+ FCN=0.733609 FROM MIGRAD    STATUS=CONVERGED     456 CALLS         457 TOTAL
+                     EDM=2.69823e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  C            8.96030e+01   1.09441e+01   8.12466e-06   1.40847e-03
+   2  Sigma        7.31432e+00   1.31862e+00   4.29506e-05   5.40289e-05
+   3  B            2.29560e+02   8.35651e+00   1.64741e-03   3.19980e-06
+   4  A           -3.96491e-01   2.80278e-01   1.32031e-04   9.58031e-05
+   5  X0           9.90225e-01   7.63013e-01   3.45129e-05  -3.57624e-04
+   6  A2           7.10518e+01   1.81395e+01   1.68103e-05   1.03550e-03
+   7  x02         -2.97029e-01   3.26467e-01   1.03483e-04   2.00287e-04
+   8  Sigma2       1.28983e+00   4.59728e-01   2.51921e-04   7.60106e-06
+SHIFT on radius correction was found as    1.20 pixels
+
+****************************************
+Minimizer is Linear
+Chi2                      =     148.883
+NDf                       =     130
+p0                        =     10.3098         +/-     1.63593     
+p1                        =     0.113259        +/-     0.0236472   
+chi2 148.883473 a 0.113259+/-0.023647 b 10.309807+/-1.635926
+brightness for track 1 is 17.342003
+Warning in <TROOT::Append>: Replacing existing TH1: hslice (Potential memory leak).
+ Npoints_fit 1054
+error flag is 0
+ASCII image circle results:  4899.6 -3826.8  2338.4  
+
+points number along track CIRCLE is 350
+ rc_int  xc_int  yc_int     stx     sty    endx    endy
+ 4899.6 -3826.8  2338.4   752.0   594.0   844.0   854.0 
+ 4899.6 -3826.8  2338.4  
+
+Number of points along track is 705
+initial  3745.8  2749.4 -2617.4   570.0   428.0   242.0   166.0 
+
+Warning in <TROOT::Append>: Replacing existing TH1: hwidth (Potential memory leak).
+ FCN=0.338464 FROM MIGRAD    STATUS=CONVERGED     601 CALLS         602 TOTAL
+                     EDM=3.56271e-10    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.8 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  C            4.95603e+01   1.02957e+01   3.29122e-06  -1.59517e-03
+   2  Sigma        7.85931e+00   2.73136e+00  -1.99241e-05  -7.38728e-05
+   3  B            1.95015e+02   9.55284e+00   2.00536e-04  -3.26970e-06
+   4  A           -5.80250e-01   3.07380e-01   7.38364e-07   1.71632e-05
+   5  X0          -9.29263e-01   1.42593e+00   4.35399e-06  -2.27138e-04
+   6  A2           6.13740e+01   1.61629e+01  -1.30794e-06  -7.70409e-04
+   7  x02          1.67158e-02   3.73431e-01   1.49941e-06  -7.57291e-06
+   8  Sigma2       1.60648e+00   5.32617e-01  -6.22849e-05  -6.83601e-05
+SHIFT on radius correction was found as    0.00 pixels
+
+****************************************
+Minimizer is Linear
+Chi2                      =     332.454
+NDf                       =     197
+p0                        =     7.9051          +/-     0.987596    
+p1                        =     0.0351065       +/-     0.00836742  
+chi2 332.454428 a 0.035107+/-0.008367 b 7.905096+/-0.987596
+brightness for track 2 is 10.983362
+Warning in <TROOT::Append>: Replacing existing TH1: hslice (Potential memory leak).
+ Npoints_fit 1472
+error flag is 0
+ASCII image circle results:  4797.9  3406.6 -3440.5  
+
+points number along track CIRCLE is 537
+ rc_int  xc_int  yc_int     stx     sty    endx    endy
+ 4797.9  3406.6 -3440.5   570.0   428.0   242.0   166.0 
+ 4797.9  3406.6 -3440.5  
+
+ Vertex position: X: 0.000000, Y: 0.000000, Error: 0.000000
+Image 1 track 0 angle 6.063
+Image 1 track 1 angle 1.231
+Image 1 track 2 angle 0.674
+ track brightness 3.941303 1.934401
+ track brightness 16.462191 17.342003
+ track brightness 12.189708 10.983362
+ Average bright among images left 220.975952 and right 167.160614 
+zfilm 0 17.37780 1 17.30760 mm   ztop = 1213.39 mm   zbot = 1376.06 mm
+1213.390137 mag_top[0]*zfilm[0] 1213.390747 mag_top[1]*zfilm[1]
+1376.056763 mag_bot[0]*zfilm[0] 1376.057373 mag_bot[1]*zfilm[1]
+     69.8241577148 mag_top[0]      70.1073760986 mag_top[1]
+     79.1847534180 mag_bot[0]      79.5059356689 mag_bot[1]
+ztop_diff 0.000610 zbot_diff 0.000610 
+
+     69.8241577148 mag_top[0]      70.1073760986 mag_top[1]
+     79.1847534180 mag_bot[0]      79.5059356689 mag_bot[1]
+ztop_diff 0.000610 zbot_diff 0.000610 
+
+zfilm 0 17.37781 1 17.30762 mm   ztop = 1213.39 mm   zbot = 1376.06 mm
+best variant is phi0 -0.000616 phi1 0.009043
+best variant is phi0 -0.022587 phi1 -0.013616
+best variant is phi0 0.003111 phi1 0.006385
+best variant is phi0 -0.016217 phi1 -0.018078
+ for TOP crosses: phi[0] = -0.00908 phi[1] = -0.00407
+best variant is phi0 -0.005298 phi1 -0.005020
+best variant is phi0 -0.014472 phi1 -0.000540
+ for all crosses: phi[0] = -0.00935 phi[1] = -0.00364
+Ytransfer_top -3.583851 +/- error 0.030063 
+Ytransfer_bot -3.162061 +/- error 0.022065 
+Xtransfer -0.000063 +/- error 0.020814 
+1: xfilm_top -2.688447 yfilm_top -0.020621
+
+1: xfilm_top -2.796236 yfilm_top 3.542271
+
+1: xfilm_top 2.709084 yfilm_top 3.544986
+
+1: xfilm_top 2.742315 yfilm_top -0.010436
+
+1: xfilm_top 0.044942 yfilm_top -1.217663
+
+1: xfilm_top -0.065319 yfilm_top 4.783042
+
+1: xfilm_bot -0.033418 yfilm_bot 3.121744
+
+1: xfilm_bot 2.385157 yfilm_bot 1.555203
+
+1: xfilm_bot 0.022788 yfilm_bot 0.006263
+
+1: xfilm_bot -2.395914 yfilm_bot 1.586348
+
+hvertex =  199.36      zvertex = 1412.75
+mag_vert[0] =   81.30
+mag_vert[1] =   81.63
+vsize = 517, hsize = 658, ratio = 0.785714
+ratio = 0.392857,0.004902,0.495098,0.009804,0.990196
+Range: xmax = 658.000000, ymax = 517.000000
+Min x  -23.630, y   -2.787, Max x  561.157, y  475.534
+Cross 0 xtrack1/xtrack2 0.995937 mag2/mag1 0.995960 zfilm2/zfilm1 0.995961 
+Cross 0 coordinates: x 189.793905, y 254.455733 z -1221.821233
+Cross 1 xtrack1/xtrack2 0.995938 mag2/mag1 0.995960 zfilm2/zfilm1 0.995961 
+Cross 1 coordinates: x 197.398825, y 2.935271 z -1221.821782
+Cross 2 xtrack1/xtrack2 0.995983 mag2/mag1 0.995960 zfilm2/zfilm1 0.995961 
+Cross 2 coordinates: x -191.246233, y 2.743669 z -1221.821823
+Cross 3 xtrack1/xtrack2 0.995983 mag2/mag1 0.995960 zfilm2/zfilm1 0.995961 
+Cross 3 coordinates: x -193.587790, y 253.736711 z -1221.821213
+Cross 4 xtrack1/xtrack2 0.997362 mag2/mag1 0.995960 zfilm2/zfilm1 0.995961 
+Cross 4 coordinates: x -3.166684, y 338.798543 z -1221.821121
+Cross 5 xtrack1/xtrack2 0.994998 mag2/mag1 0.995960 zfilm2/zfilm1 0.995961 
+Cross 5 coordinates: x 4.609639, y -84.547197 z -1221.822039
+i 0 xtrack1/xtrack2 0.994082 mag2/mag1 0.995960 zfilm2/zfilm1 0.995961 
+Cross 6 coordinates: x 2.673887, y 3.219801 z -1384.801527
+i 1 xtrack1/xtrack2 0.995987 mag2/mag1 0.995960 zfilm2/zfilm1 0.995961 
+Cross 7 coordinates: x -190.836495, y 128.568136 z -1384.801241
+i 2 xtrack1/xtrack2 0.998728 mag2/mag1 0.995960 zfilm2/zfilm1 0.995961 
+Cross 8 coordinates: x -1.818286, y 252.500265 z -1384.800895
+i 3 xtrack1/xtrack2 0.995934 mag2/mag1 0.995960 zfilm2/zfilm1 0.995961 
+Cross 9 coordinates: x 191.702204, y 126.072878 z -1384.801262
+rtr0 16.763332, xc0 -0.840415, yc0 -17.844788, rtr1 13.769139, xc1 -0.554060, yc1 241.556996
+track 0 vertex point x0 141.770 y0 186.456 z0 -611.232
+track 0 vertex point xpim0 -4.031 ypim0 -5.301 xpim1 -4.014 ypim1 228.230
+track 0 vertex point x0 34.081 y0 263.918 z0 -134.018
+track 0 vertex point xpim0 -4.419 ypim0 -34.222 xpim1 -4.401 ypim1 251.590
+npt3D[0] = 2361, npt_left = 1177, npt_right = 1184
+rtr0 15.267812, xc0 -13.401767, yc0 5.055984, rtr1 33.317226, xc1 -30.481598, yc1 267.396568
+track 1 vertex point x0 25.446 y0 33.467 z0 -109.710
+track 1 vertex point xpim0 -4.031 ypim0 -5.301 xpim1 -4.014 ypim1 247.160
+track 1 vertex point x0 190.337 y0 313.976 z0 -748.467
+track 1 vertex point xpim0 -4.419 ypim0 -7.290 xpim1 -4.401 ypim1 251.590
+npt3D[1] = 2733, npt_left = 1342, npt_right = 1391
+rtr0 46.628658, xc0 28.546288, yc0 -38.435768, rtr1 32.625561, xc1 18.848245, yc1 228.278933
+track 2 vertex point x0 264.922 y0 348.427 z0 -1142.195
+track 2 vertex point xpim0 -4.031 ypim0 -5.301 xpim1 -4.014 ypim1 205.004
+track 2 vertex point x0 276.566 y0 341.601 z0 -1087.550
+track 2 vertex point xpim0 -4.419 ypim0 -71.413 xpim1 -4.401 ypim1 251.590
+npt3D[2] = 2482, npt_left = 1344, npt_right = 1138
+k 7576
+error flag is 0
+D3 circle fit : track 0 rad 362.734161 cent -90.219139 454.761200 DRC 2.961440 chi2 0.379147 
+D3 line fit : tr 0 A_line 228.658676 B_line -1079.156982, chi2 156.316 DA 0.583827
+D3 helix fit: tr 0 R 334.387848 XC -48.558929 YC 414.759277 DRC 1.009043 
+D3 helix fit: tr 0 A 210.575439 B -1068.806274 DA 0.749169 SIGN 1 PHIF 5.407325
+D3 helix fit: ERROR_FLAG is    0 chi2 = 130.291885 
+Take circle and line fit as final results of fit
+D3 circle fit : track 0 rad 362.734161 cent -90.219139 454.761200 chi2 156.695648 
+D3 line fit : tr 0 A_line 228.658676 B_line -1079.156982
+RC=1120.000000, XC=-106.545982, YC=446.919250
+D3 helix fit: tr 0 R 1120.000000 XC -95.250282 YC 1217.863892 DRC 0.000000 
+D3 helix fit: tr 0 A 683.606201 B -1092.295776 DA 1.817084 SIGN 1 PHIF 4.938270
+D3 helix fit: ERROR_FLAG is    0 chi2 = 137.580399 
+Take helix fit as final result of fit
+error flag is 0
+D3 circle fit : track 1 rad 369715.343750 cent -349423.781250 121006.734375 DRC 0.650769 chi2 2.482497 
+D3 line fit : tr 1 A_line 92174.882812 B_line -1278.248291, chi2 531.980 DA 375.177795
+D3 helix fit: tr 1 R 369715.343750 XC -349424.000000 YC 121006.101562 DRC 0.143769 
+D3 helix fit: tr 1 A 91768.632812 B -1278.181763 DA 374.496429 SIGN -1 PHIF 5.949522
+D3 helix fit: ERROR_FLAG is    0 chi2 = 515.546936 
+Take circle and line fit as final results of fit
+D3 circle fit : track 1 rad 369715.343750 cent -349423.781250 121006.734375 chi2 534.462463 
+D3 line fit : tr 1 A_line 92174.882812 B_line -1278.248291
+error flag is 0
+D3 circle fit : track 2 rad 373872.000000 cent 238397.796875 -287894.875000 DRC 0.791904 chi2 0.152670 
+D3 line fit : tr 2 A_line -59733.667969 B_line -1199.367188, chi2  5.743 DA 344.397980
+D3 helix fit: tr 2 R 373870.718750 XC 238397.343750 YC -287893.562500 DRC 0.183555 
+D3 helix fit: tr 2 A -59604.058594 B -1199.444336 DA 344.396820 SIGN -1 PHIF 2.261271
+D3 helix fit: ERROR_FLAG is    0 chi2 = 5.591959 
+Take helix fit as final result of fit
+ Vertex coordinates: x -32.359409, y 94.935799; error 9.072762
+ 0  0 1 : cosx 0.853200 cosy 0.047785 cosz 0.519390
+z vertex -1208.463257
+Z coordinate of vertex is -1208.463257
+ 1  0 -1 : cosx 0.317322 cosy 0.916945 cosz 0.241904
+z vertex -1232.098267
+Z coordinate of vertex is -1232.098267
+ 2  0 -1 : cosx -0.760665 cosy -0.629765 cosz -0.157432
+z vertex -1262.454590
+Z coordinate of vertex is -1262.454590
+Zvertax is -1234.338745 disp 22.098728
+track 0 momentum 255.867752 chi2 137.580399 
+p2[0] 255.867752 
+p[0] =   255.87+/- 0.185  chi_tr[0] =   137.580399 particle  pi
+track 1 momentum 74301.304688 chi2 534.462463 
+track 1 momentum 400.105316 chi2 100.000000 
+p2[1] 400.105316 
+p[1] =   400.11+/-17.698  chi_tr[1] =   100.000000 particle  pi
+track 2 momentum 73825.453125 chi2 5.591959 
+track 2 momentum 623.804443 chi2 100.000000 
+p2[2] 623.804443 
+p[2] =   623.80+/-10.573  chi_tr[2] =   100.000000 particle  pi
+p[0]    256 br     3 P^2*br 192336.183697 loss 1.000000 0.000000
+p[1]    400 br    17 P^2*br 10501594.855798 loss 54.600204 0.981685
+p[2]    624 br    12 P^2*br 4508690.981022 loss 23.441720 0.411019
+ rel_loss[0] = 0.036914 - relative to maximum losses (H3 or He3)
+ rel_loss[1] = 0.589650 - relative to maximum losses (H3 or He3)
+ rel_loss[2] = 1.000000 - relative to maximum losses (H3 or He3)
+Info in <TCanvas::Print>: GIF file gif/9Nv9_1-202c3.gif has been created
+Error in <TGX11TTF::WriteGIF>: can not create GIF of image containing more than 256 colors
+Info in <TCanvas::Print>: GIF file gif/9Nv9_1-202cp.gif has been created
+Info in <TCanvas::Print>: GIF file gif/9Nv9_1-202cw.gif has been created
+Info in <TCanvas::Print>: GIF file gif/9Nv9_1-202csl.gif has been created
+Info in <TCanvas::Print>: GIF file gif/9Nv9_1-202c4.gif has been created

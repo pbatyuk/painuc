@@ -1,0 +1,8 @@
+g++-4.4 -DPI70 -g -Wall -fPIC -I./ -Df2cFortran  -pthread -m64 -I/cern/root_install//include/root  -c ev_read_f10.cxx 
+ev_read_f10.cxx: In function ‘void SetVeryNewPalette()’:
+ev_read_f10.cxx:1003: warning: unused variable ‘color’
+g++-4.4 -DPI70 -g -Wall -fPIC -I./ -Df2cFortran  -pthread -m64 -I/cern/root_install//include/root  -c vertex.cxx 
+g++-4.4 -DPI70 -g -Wall -fPIC -I./ -Df2cFortran  -pthread -m64 -I/cern/root_install//include/root  -c recon_main_negative.cxx 
+g++-4.4 -DPI70 -g -Wall -fPIC -I./ -Df2cFortran  -pthread -m64 -I/cern/root_install//include/root  -c circle_signe.cxx 
+g++-4.4 -lz -g ev_read_f10.o  vertex.o  recon_main_negative.o  circle_signe.o   -lm -L/cern/root_install//lib/root -lGui -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic -Wl,-static -lpacklib -lkernlib -Wl,-dy -lm -lnsl -lcrypt -ldl -lgfortran  -o ../digitization_negative_allinclude
+../digitization_negative_allinclude done.

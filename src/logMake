@@ -1,0 +1,1 @@
+g++ -g -Wall -fPIC -I./ -I/cern//2003_i686/include/cfortran -Df2cFortran -pthread -m32 -I/cern/root/include/root  -c ev_read_f10.cxx 

@@ -1,0 +1,67 @@
+ObjSuf        = o
+SrcSuf        = cxx
+%.$(SrcSuf),%.$(ObjSuf):
+
+DllSuf        = so
+OutPutOpt     = -o
+
+CXX           = g++
+CXXFLAGS      = -g -Wall -fPIC -I./ -I/cern/2003_i686/include/cfortran -Df2cFortran
+LD            = g++
+LDFLAGS       = -lz -g
+SOFLAGS       = -shared
+
+ROOTCFLAGS    = $(shell root-config --cflags)
+ROOTLIBS      = $(shell root-config --libs)
+ROOTGLIBS     = $(shell root-config --glibs)
+
+CERNLIB       = $(shell cernlib bvsl)
+
+CXXFLAGS     += $(ROOTCFLAGS) 
+LIBS          = $(ROOTLIBS)
+GLIBS         = -lm $(ROOTGLIBS) $(CERNLIB) -lg2c  
+
+NAME1   = ev_read_f10
+NAME2   = vertex
+NAME3   = recon_main_negative
+NAME5   = circle_signe
+FILE1 = $(NAME1).$(SrcSuf)
+FILE2 = $(NAME2).$(SrcSuf)
+FILE3 = $(NAME3).$(SrcSuf)
+#FILE4 = $(NAME4).$(SrcSuf)
+FILE5 = $(NAME5).$(SrcSuf)
+OBJ1  = $(NAME1).$(ObjSuf) 
+OBJ2  = $(NAME2).$(ObjSuf) 
+OBJ3  = $(NAME3).$(ObjSuf) 
+#OBJ4  = $(NAME4).$(ObjSuf) 
+OBJ5  = $(NAME5).$(ObjSuf) 
+
+OBJ = $(OBJ1) $(OBJ2) $(OBJ3) $(OBJ5) 
+
+EXE = ../digitization_negative_allinclude_68
+
+all :  $(EXE)
+
+$(OBJ1) : $(FILE1)
+	$(CXX) $(CXXFLAGS) -c $< 
+
+$(OBJ2) : $(FILE2)
+	$(CXX) $(CXXFLAGS) -c $< 
+
+$(OBJ3) : $(FILE3)
+	$(CXX) $(CXXFLAGS) -c $< 
+
+$(OBJ5) : $(FILE5)
+	$(CXX) $(CXXFLAGS) -c $< 
+
+#$(SrcSuf).$(ObjSuf):
+#	$(CXX) $(CXXFLAGS) -c $< 
+
+$(EXE) :	 $(OBJ)
+	$(LD) $(LDFLAGS) $(OBJ) $(GLIBS) $(OutPutOpt) $(EXE)
+	@echo "$(EXE) done."
+
+clean :
+	@rm -f $(OBJ) $(EXE) core *~
+
+
