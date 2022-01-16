@@ -6,3 +6,7 @@ software.
 started making use of compile.sh. 
    To verify correct execution, i.e. to be sure there are no segmentation violations and so on, one is referred to 
 the negative/106_MeV directory (in this repository), where an example of an event to be measured is found.  
+
+The automaton-dialog.cxx (put in the root of the repository) is the last version of program to be used for automatic measurements in interactive mode.
+An emulation of batch mode can be achieved by commenting some obvious functions in the source code. The program is a 
+standalone c++ program, so, presence of Makefile to be created is obligatory.
